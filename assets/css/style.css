@@ -1,0 +1,152 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+:root{
+    /* colors */
+    --color1: #080F61;
+    --color2: #612911;
+    --color3: #C96065;
+}
+nav #headerCSS{
+    background-color: var(--color1);
+}
+
+#btnCSS{
+    background-color: var(--color3);
+    border-radius: 5px;
+}
+#imgCSS{
+    height: 60px;
+    
+}
+#navCSS{
+    background-color: white;;
+}
+#imglogo {
+    text-align: center;
+    margin-left: 10%;
+    float: center;
+    height:  4.1rem;
+    align-items: center;
+    align-content: center;
+    
+}
+
+  .input-field label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  #txtLocation{
+    text-align: center;
+  }
+  #fixCursor{
+    cursor: default;
+  }
+  .containerCSS{
+    height: 480px;
+    z-index: 1;
+  }
+  #btnSave{
+    margin-top: 10px;
+    background-color: var(--color3);
+    display: block;
+  }
+  #btnSaveLoc{
+      margin-top: 10px;
+      background-color: var(--color3);
+    
+  }
+  #alertContainer{
+    height: 0px;
+    background-color: #080F61;
+    z-index: 3; 
+  }
+  #innercontaineer{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif;
+    background-color:var(--color3);
+    height: 302px;
+    width: 300px;
+    z-index: 9;
+    color: white;
+    display: block;
+    position: sticky;
+    
+  }
+
+  .weatherContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px; 
+    color: #fff;
+  }
+
+  .current-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+ 
+  .current-info .others {
+    display: flex;
+    flex-direction: column;
+    background: #3c3c44;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+  }
+
+  .current-info .others .weather-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .weather-forecast {
+    background: white;
+    padding: 25px;
+    position: left;
+    bottom: 0;
+    display: flex ;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .weather-forecast .weather-forecast-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 10px;
+      border: 1px solid #3c3c44;
+      border-radius: 10px;
+      padding: 15px;
+      background: rgba(0, 0, 0, 2);
+    }
+  
+  .weather-forecast{
+    display: flex;
+
+  }
+
+  .weather-forecast .weather-forecast-item .day{
+    padding: 5px 15px;
+    background: #3c3c44;
+    border-radius: 50px;
+    text-align: center;
+  }
+
+  .weather-forecast .weather-forecast-item .temp{
+    font-weight: 100;
+    font-size: 12px;
+  }
+  #BESTplacestxt{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: xx-large;
+    margin: 10px;
+  }

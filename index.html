@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- css framework -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- google font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather Dashboard</title>
+</head>
+
+<body>
+  <!-- navBAR -->
+  <div class="navbar-fixed ">
+    <nav id='navCSS'>
+      <div class="nav-wrapper" id='headerCSS'>
+
+        <a href="#!" class="brand-logo center fg">Weather Dashboard</a>
+        <ul class="right hide-on-med-and-down">
+          <a class="waves-effect waves-light btn z-depth-3 pulse" id="btnCSS">FAVORITES </a>
+        </ul>
+      
+      </div>
+  </div>
+  <!-- FORM -->
+  <div class="divider " ></div>
+  <div class="section container" id ="fixCursor">
+    <h5 class="center-align " id ="fixCursor">SEARCH UP DESTINATIONS</h5>
+    <div class=" row hoverable container">
+      <div class="input-field col s12 ">
+        <input placeholder="New York" id="txtLocation" type="text" class="validate" data-length="10">
+      
+        <label class="active " for="txtLocation" id="txtLocation"></label>
+        </div>
+      </div>
+    </div>
+    <div class="alerts container" id="alertContainer">
+      <div class="container z-depth-5" id="innercontaineer" > <img class ="alertimg z-depth-5" src="https://media.tenor.com/DCI2uoqFUvEAAAAd/the-office-the.gif" alt=""> hellp</div>
+     
+    </div>
+  
+    <div class="row container">
+      <div class="col s12">
+        
+        <div class="weather-forecast" id="weather-forecast">
+        <div class="weather-forecast-item">
+          <div class="today" id="current-temp">
+            <div class="day">Mon</div>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="temp" id="dayOne"></div>
+
+            <div class="temp" id="nightOne"></div>
+          </div>
+          </div>
+          
+          <div class="weather-forecast">
+          <div class="weather-forecast-item z-depth-3">
+          <div class="day">Tues</div>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+          <div class="temp" id="dayTwo"> </div>
+          <div class="temp" id="nightTwo"> </div>
+        </div>
+      </div>
+
+      <div class="weather-forecast">
+        <div class="weather-forecast-item z-depth-3">
+          <div class="day">Wed</div>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+          <div class="temp" id="dayThree"></div>
+          <div class="temp" id="nightThree"></div>
+        </div>
+      </div>
+
+      <div class="weather-forecast">
+        <div class="weather-forecast-item z-depth-3">
+          <div class="day">Thurs</div>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+          <div class="temp" id="dayFour"></div>
+          <div class="temp" id="nightFour"></div>
+        </div>
+      </div>
+
+      <div class="weather-forecast">
+        <div class="weather-forecast-item z-depth-3" >
+          <div class="day">Fri</div>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+          <div class="temp" id="dayFive"></div>
+          <div class="temp" id="nightFive"></div>
+        </div>
+      </div>
+      </div>
+      <button class=" btn waves-effect waves-light" id="btnSaveLoc">Save</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
